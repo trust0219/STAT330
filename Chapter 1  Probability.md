@@ -1,28 +1,17 @@
-1. Sample space: all possible events for random experiment
-2. Event: Subset of S
-3. Probability Set Function (p.s.f)
-4. Properties of p.s.f
-5. Boole's Inequality
-6. Conditional Probability
-7. Law of Total Probability
-8. Bayes' Theorem
-9. Indepentdent Events
-10. Mutually Independent Events
-
 ## 1. Sample Space
 (1) Finite
 (2) Countable
 (3) Uncountable
 
-##2. Event
+## 2. Event
 
-##3. Probability Set Function
+## 3. Probability Set Function
 Let $B = \{A_1, A_2, \cdots \}  $ 
 (1) $P(A) \geq 0 $ for all $A \in B$
-(2) $ P(S) = 1 $
+(2) $ P(S) = 1 $ 
 (3) If $ A_1, A_2, \cdots, \in B$ (i.e. $A_i \cap A_j = \emptyset \hspace{0.5cm} \forall i \neq j )  $ are pairwise mutually exclusive, then $P(\cup_{i=1}^{\infty} A_i ) = \sum(A_i)$
 
-##4. Properties of p.s.f.
+## 4. Properties of p.s.f.
 (1) $P(S) = 1$
 (2) $P(\emptyset) = 0$
 (3) $P(A) \leq 1$
@@ -31,25 +20,25 @@ Let $B = \{A_1, A_2, \cdots \}  $
 (6) If $A \leq B$, then, $P(A) \leq P(B)$
 
 
-##5. Boole's Inequality
+## 5. Boole's Inequality
 If $A_1, A_2, \cdots  $ is a sequence of events, then $$
 P(\cup^\infty_{i=1}A_i) \leq \sum_{i=1}^{\infty} P(A_i)
 $$
 
-##6. Conditional Probability
+## 6. Conditional Probability
 $$
  P(A|B) =  \frac {P(A \cap B)} {P(B)}
 $$
 
 
-##7. Law of Total Probability
+## 7. Law of Total Probability
 
 Let $B_1, B_2, \cdots B_n $ is a collection of mutually exclusive and exhaustive events (i.e $\sum^{n}_{i=1} B_i = S) \\$
 Then $P(A) = \sum_{i=1}^{n} P(B_i)\cdot P(A|B_i) \\$
 
 
 
-##8. Bayes Theorem
+## 8. Bayes Theorem
 
 Let $B_1, B_2, \cdots B_n $ is a collection of mutually exclusive and exhaustive events (i.e $\sum^{n}_{i=1} B_i = S) \\$
  Then 
@@ -58,7 +47,7 @@ Let $B_1, B_2, \cdots B_n $ is a collection of mutually exclusive and exhaustive
  $$
 
 
-##9. Independent Events
+## 9. Independent Events
 $A$ and $B$are independent, then
 $$
 P(A|B) = P(A) \\
